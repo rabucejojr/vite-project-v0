@@ -15,12 +15,6 @@ import { VscAccount } from 'react-icons/vsc'
 import { RiLockPasswordLine } from 'react-icons/ri'
 import DivStyles from './DivStyles'
 const LoginComp = () => {
-  const Styles = styled('div')({
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    border: '2px solid black',
-  })
 
   return (
     <>
@@ -29,11 +23,12 @@ const LoginComp = () => {
           <Card
             sx={{
               container: 'container',
-              width: '300px',
+              width: '340px',
               height: '250px',
               padding: '10px',
               margin: '30px',
             }}
+            style={{ border: "none", boxShadow: "none"}}
           >
             <Typography sx={{ textAlign: 'center' }}>Login here</Typography>
             <CardContent>
