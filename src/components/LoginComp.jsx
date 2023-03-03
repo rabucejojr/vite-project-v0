@@ -23,14 +23,14 @@ const LoginComp = () => {
           <Card
             sx={{
               container: 'container',
-              width: '340px',
+              width: '450px',
               height: '250px',
               padding: '10px',
               margin: '30px',
             }}
             style={{ border: "none", boxShadow: "none"}}
           >
-            <Typography sx={{ textAlign: 'center' }}>Login here</Typography>
+            <Typography sx={{ textAlign: 'center' }}>Login Form</Typography>
             <CardContent>
               <Grid container spacing={4}>
                 <Grid xs={12} item>
