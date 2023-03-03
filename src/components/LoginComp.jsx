@@ -32,9 +32,9 @@ const LoginComp = () => {
           >
             <Typography sx={{ textAlign: 'center' }}>Login Form</Typography>
             <CardContent>
-              <Grid container spacing={4}>
+              <Grid container spacing={6}>
                 <Grid xs={12} item>
-                  <Input
+                  <Input 
                     startAdornment={
                       <InputAdornment position='start'>
                         <VscAccount />
