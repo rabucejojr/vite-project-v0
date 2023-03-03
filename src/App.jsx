@@ -1,11 +1,11 @@
-import { Login } from "./pages"
-
+import { Login,MenuBar } from "./pages"
 // THIS IS WHERE PAGES ARE CALLED
 function App() {
 
   return (
     <>
-      <Login/>
+      <MenuBar />
+      {/* <Login /> */}
     </>
   )
 }
