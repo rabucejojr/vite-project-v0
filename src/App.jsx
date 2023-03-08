@@ -1,5 +1,5 @@
 import { Login,MenuBar } from "./pages"
-// THIS IS WHERE PAGES ARE CALLED
+// THIS IS WHERE PAGES ARE CALLED FOR TESTING
 function App() {
   return (
     <>
