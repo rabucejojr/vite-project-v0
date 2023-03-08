@@ -13,7 +13,7 @@ import {
 import React from 'react'
 import { VscAccount } from 'react-icons/vsc'
 import { RiLockPasswordLine } from 'react-icons/ri'
-import DivStyles from './DivStyles'
+import DivStyles from './Styles'
 const LoginComp = () => {
 
   return (
