@@ -14,8 +14,8 @@ import React from 'react'
 import { VscAccount } from 'react-icons/vsc'
 import { RiLockPasswordLine } from 'react-icons/ri'
 import DivStyles from './Styles'
-const LoginComp = () => {
 
+const LoginComp = () => {
   return (
     <>
       <DivStyles>
@@ -28,13 +28,13 @@ const LoginComp = () => {
               padding: '10px',
               margin: '30px',
             }}
-            style={{ border: "none", boxShadow: "none"}}
+            style={{ border: "none", boxShadow: "none" }}
           >
             <Typography sx={{ textAlign: 'center' }}>Login Form</Typography>
             <CardContent>
               <Grid container spacing={6}>
                 <Grid xs={12} item>
-                  <Input 
+                  <Input
                     startAdornment={
                       <InputAdornment position='start'>
                         <VscAccount />
@@ -84,7 +84,7 @@ const LoginComp = () => {
             margin: '30px',
           }}
         >
-          
+
         </div>
       </DivStyles>
     </>
