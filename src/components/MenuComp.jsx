@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { ThemeProvider } from '@mui/system'
-import { AppBar, Box, CssBaseline, IconButton, Toolbar } from '@mui/material'
+import { AppBar, Box, createTheme, CssBaseline, IconButton, styled, Toolbar } from '@mui/material'
+
 
   const LoginComp = () => {
     const customMenuTheme = createTheme({
       palette: {
         primary: {
-          main: 'blue',
+          main: '#121456',
           contrastText: 'white',
         },
       },
