@@ -3,7 +3,7 @@ import { ThemeProvider } from '@mui/system'
 import { AppBar, Box, createTheme, CssBaseline, IconButton, styled, Toolbar } from '@mui/material'
 
 
-  const LoginComp = () => {
+  const MenuComp = () => {
     const customMenuTheme = createTheme({
       palette: {
         primary: {
@@ -26,4 +26,4 @@ import { AppBar, Box, createTheme, CssBaseline, IconButton, styled, Toolbar } fr
       </>
     )
   }
- export default LoginComp
+ export default MenuComp
