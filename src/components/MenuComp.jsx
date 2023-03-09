@@ -17,12 +17,13 @@ const MenuComp = () => {
     padding: theme.spacing(1),
     borderRadius: theme.shape.borderRadius,
   }))
-  
+
   return (
     <>
       <ThemeProvider theme={customMenuTheme}>
         <MenuTheme>Styled div with theme</MenuTheme>
       </ThemeProvider>
+      
     </>
   )
 }
