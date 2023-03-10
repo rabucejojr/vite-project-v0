@@ -23,7 +23,7 @@ export default function MenuComp() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            PSTO Management System
+            PSTO-SDN Portal
           </Typography>
         </Toolbar>
       </AppBar>
@@ -42,7 +42,7 @@ export default function MenuComp() {
         <Toolbar />
         <Divider />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+          {['Dashboard', 'Manage Document', 'Files'].map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton>
                 {/* <ListItemIcon>
@@ -55,7 +55,7 @@ export default function MenuComp() {
         </List>
         <Divider />
         <List>
-          {['All mail', 'Trash', 'Spam'].map((text, index) => (
+          {['All mail', 'Trash', 'Logout'].map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton>
                 <ListItemText primary={text} />
