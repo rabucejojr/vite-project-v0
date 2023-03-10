@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Box, Drawer, AppBar, CssBaseline, Toolbar, List, Typography, Divider, ListItem, ListItemButton, ListItemText } from '@mui/material/Box';
+import { Box, Drawer, AppBar, CssBaseline, Toolbar, List, Typography, Divider, ListItem, ListItemButton, ListItemText } from '@mui/material';
 
 
-const drawerWidth = 240;
+const drawerWidth = 300;
 
 export default function MenuComp() {
   return (
