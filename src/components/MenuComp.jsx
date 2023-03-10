@@ -17,12 +17,12 @@ export default function MenuComp() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar
+      <AppBar 
         position="fixed"
-        sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}
+        sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px`, color:'white' }}
       >
-        <Toolbar>
-          <Typography variant="h6" noWrap component="div">
+        <Toolbar color='primary'>
+          <Typography variant="h6" noWrap component="div" color='inherit' >
             PSTO-SDN Portal
           </Typography>
         </Toolbar>
@@ -34,6 +34,7 @@ export default function MenuComp() {
           '& .MuiDrawer-paper': {
             width: drawerWidth,
             boxSizing: 'border-box',
+            padding:'5px'
           },
         }}
         variant="permanent"
@@ -54,21 +55,12 @@ export default function MenuComp() {
           ))}
         </List>
         <Divider />
-        <List>
-          {['All mail', 'Trash', 'Logout'].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
       </Drawer>
       <Box
         component="main"
         sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
       >
-        {/* <Toolbar /> */}
+        <Toolbar />
         
       </Box>
     </Box>
